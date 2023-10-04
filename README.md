@@ -2,6 +2,7 @@
 
 ## Demo 
 Easy mode:
+
 ![](./src/main/resources/figs/easy-mode.gif)
 
 <!-- <video width="320" height="240" controls>
@@ -10,9 +11,7 @@ Easy mode:
 
 Normal mode:
 
-<video width="320" height="240" controls>
-  <source src="./src/main/resources/figs/normallevel.mov" type="video/mp4">
-</video>
+![](./src/main/resources/figs/normal-mode.gif)
 
 ## Commands
 
