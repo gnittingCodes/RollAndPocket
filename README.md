@@ -1,17 +1,17 @@
 # Roll And Pocket
 
-**Note 1:** The friction value in the config file is used as a multiplier in the
-implementation. As the friction approaches 0, the friction decreases. As friction
-approach 1, the friction increases. A high value of friction will make it 
-impossible for a ball to move. Range of valid friction is: `0 < friction < 1`.
+## Demo 
+Easy mode:
 
-**Note 2:** While the forces applied to the cue ball is variable based on the
-length of the line shown when dragging from the cue ball, there is a maximum cap
-on the force.
+<video width="320" height="240" controls>
+  <source src="./src/main/resources/figs/easylevel.mov" type="video/mp4">
+</video>
 
-**Note 3:** The center of the ball needs to be in the pocket for the code to 
-consider it as "in the pocket" instead of its rectangular bound just intersecting
-with the pocket's rectangular bound.
+Normal mode:
+
+<video width="320" height="240" controls>
+  <source src="./src/main/resources/figs/normallevel.mov" type="video/mp4">
+</video>
 
 ## Commands
 
@@ -46,6 +46,20 @@ Press keyboard keys:
     "P" -> to remove all Purple balls
     "K" -> to remove all Black balls
     "O" -> to remove all Orange balls 
+
+## Notes 
+
+**Note 1:** The friction value in the config file is used as a multiplier in the implementation. As the friction approaches 0, the friction decreases. As friction
+approach 1, the friction increases. A high value of friction will make it impossible for a ball to move. Range of valid friction is: `0 < friction < 1`.
+
+**Note 2:** While the forces applied to the cue ball is variable based on the
+length of the line shown when dragging from the cue ball, there is a maximum cap
+on the force.
+
+**Note 3:** The center of the ball needs to be in the pocket for the code to 
+consider it as "in the pocket" instead of its rectangular bound just intersecting
+with the pocket's rectangular bound.
+
 
 ## Features 
 
